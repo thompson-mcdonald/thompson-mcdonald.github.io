@@ -1,7 +1,7 @@
 {
-  "name": "caramel",
+  "name": "thompson-mcdonald.github.io",
   "version": "0.0.1",
-  "description": "A basic front-end set up to get you writing code as soon as possible.",
+  "description": "Caramelised Personal Site",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,6 +16,7 @@
     "gulp-connect": "^4.1.0",
     "gulp-postcss": "^6.1.1",
     "lost": "^6.8.1",
+    "postcss-each": "^0.9.3",
     "postcss-import": "^8.1.2",
     "postcss-nested": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
