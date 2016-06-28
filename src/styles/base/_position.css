@@ -1,0 +1,32 @@
+@each $pos in (relative, absolute, static, fixed) {
+	.pos-$(pos) {
+		position: $(pos);
+	}
+}
+
+@each $posValue,
+			$posValueName in
+			(0, 0.5em, 1em, 2em, 4em, 8em),
+			(no, xs, sm, md, lg, xl) {
+	.$(posValueName)-l {
+		left: $(posValue);
+	}
+	.$(posValueName)-r {
+		right: $(posValue);
+	}
+	.$(posValueName)-t {
+		top: $(posValue);
+	}
+	.$(posValueName)-b {
+		bottom: $(posValue);
+	}
+}
+
+@each $zIndex,
+			$zIndexName in
+			(0, 10, 20, 30),
+			(ground, low, mid, high) {
+	.z-index-$(zIndexName) {
+		z-index: $(zIndex);
+	}
+}
