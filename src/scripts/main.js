@@ -1,3 +1,6 @@
-var test = require('./_test');
+var $ = require('jquery');
+require('jquery-ui');
 
-test('does it work?');
+$(document).ready(function(){
+
+});
