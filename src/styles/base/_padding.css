@@ -1,3 +1,37 @@
-.no-pad {
-	padding: 0;
+@each $padValue, $padValueName in (0, 1em, 2em, 3em, 4em), (no, sm, md, lg, xl) {
+	.pad-$(padValueName)-t {
+		padding-top: $(padValue);
+	}
+	.pad-$(padValueName)-r {
+		padding-right: $(padValue);
+	}
+	.pad-$(padValueName)-b {
+		padding-bottom: $(padValue);
+	}
+	.pad-$(padValueName)-l {
+		padding-left: $(padValue);
+	}
+	.pad-no {
+		padding: 0;
+	}
+}
+
+@media screen and (min-width: 650px) {
+	@each $padValue, $padValueName in (0, 1em, 2em, 3em, 4em), (no, sm, md, lg, xl) {
+		.pad-$(padValueName)-t-des {
+			padding-top: $(padValue);
+		}
+		.pad-$(padValueName)-r-des {
+			padding-right: $(padValue);
+		}
+		.pad-$(padValueName)-b-des {
+			padding-bottom: $(padValue);
+		}
+		.pad-$(padValueName)-l-des {
+			padding-left: $(padValue);
+		}
+	}
+	.pad-no-des {
+		padding: 0;
+	}
 }
