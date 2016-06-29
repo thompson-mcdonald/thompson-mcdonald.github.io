@@ -1,12 +1,14 @@
-a:link {
+a:link, a:visited {
 	color: blue;
 	text-decoration: none;
 }
 
-a:visited {
-	color: blue;
-}
-
 a:hover, a:active {
 	text-decoration: line-through;
+}
+
+.wrapper-dark {
+	a:link, a:visited {
+		color: #ddd;
+	}
 }
