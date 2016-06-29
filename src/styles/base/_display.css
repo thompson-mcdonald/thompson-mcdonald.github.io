@@ -1,0 +1,10 @@
+@each $dis in (block, inline-block, initial, none) {
+	@media screen and (min-width: 650px) {
+		.dis-$(dis)-des {
+			display: $(dis);
+		}
+	}
+	.dis-$(dis) {
+		display: $(dis);
+	}
+}

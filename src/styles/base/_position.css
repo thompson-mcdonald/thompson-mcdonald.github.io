@@ -1,11 +1,11 @@
 @each $pos in (relative, absolute, static, fixed) {
-	.pos-$(pos) {
-		position: $(pos);
-	}
 	@media screen and (min-width: 650px) {
 		.pos-$(pos)-des {
 			position: $(pos);
 		}
+	}
+	.pos-$(pos) {
+		position: $(pos);
 	}
 }
 
@@ -13,6 +13,20 @@
 			$posValueName in
 			(0, 0.5em, 1em, 2em, 4em, 8em),
 			(no, xs, sm, md, lg, xl) {
+	@media screen and (min-width: 650px) {
+		.$(posValueName)-l-des {
+			left: $(posValue);
+		}
+		.$(posValueName)-r-des {
+			right: $(posValue);
+		}
+		.$(posValueName)-t-des {
+			top: $(posValue);
+		}
+		.$(posValueName)-b-des {
+			bottom: $(posValue);
+		}
+	}
 	.$(posValueName)-l {
 		left: $(posValue);
 	}
