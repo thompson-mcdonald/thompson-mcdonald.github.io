@@ -1,0 +1,10 @@
+.container {
+	width: 90%;
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+.collage-area {
+	width: 100%;
+	height: 100%;
+}
