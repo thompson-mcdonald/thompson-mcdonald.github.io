@@ -2,6 +2,11 @@
 	.pos-$(pos) {
 		position: $(pos);
 	}
+	@media screen and (min-width: 650px) {
+		.pos-$(pos)-des {
+			position: $(pos);
+		}
+	}
 }
 
 @each $posValue,

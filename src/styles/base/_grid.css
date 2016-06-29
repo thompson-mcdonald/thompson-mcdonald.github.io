@@ -6,7 +6,7 @@
 	lost-column: 3/3;
 }
 
-@media screen and(min-width: 650px) {
+@media screen and (min-width: 750px) {
 	.grid-one-third {
 		lost-column: 1/3;
 		&.grid-move-one {
