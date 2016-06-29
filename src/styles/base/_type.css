@@ -3,3 +3,10 @@
 body {
 	font-family: Space Mono, monospace;
 }
+
+.title {
+	span {
+		display: block;
+		margin-left: 80px;
+	}
+}

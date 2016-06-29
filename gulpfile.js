@@ -7,10 +7,10 @@ var gulp = require('gulp'),
 		source = require('vinyl-source-stream');
 
 var postcssPlugins = [
-	require('postcss-nested'),
 	require('postcss-import'),
 	require('lost'),
-	require('postcss-each')
+	require('postcss-each'),
+	require('postcss-nested')
 ];
 
 gulp.task('styles', function(){
