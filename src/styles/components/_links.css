@@ -1,10 +1,10 @@
 a:link {
-	color: black;
+	color: blue;
 	text-decoration: none;
 }
 
 a:visited {
-	color: purple;
+	color: blue;
 }
 
 a:hover, a:active {

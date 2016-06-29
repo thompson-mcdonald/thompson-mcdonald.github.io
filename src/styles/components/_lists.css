@@ -5,3 +5,16 @@
 		margin-left: 40px;
 	}
 }
+
+.list-unstyled {
+	padding: 0;
+	li {
+		list-style-type: none;
+	}
+}
+
+ol, ul {
+	li {
+		margin: 0.2em 0;
+	}
+}

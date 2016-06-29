@@ -1,3 +1,9 @@
 img {
 	max-width: 100%;
 }
+
+@each $imageSize, $imageSizeName in (40%, 60%, 80%, 100%), (sm, md, lg, max) {
+	.img-$(imageSizeName) {
+		max-width: $(imageSize);
+	}
+}
