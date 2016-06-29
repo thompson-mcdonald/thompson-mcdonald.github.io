@@ -1,10 +1,13 @@
 @each $dis in (block, inline-block, initial, none) {
-	@media screen and (min-width: 650px) {
+	.dis-$(dis) {
+		display: $(dis);
+	}
+}
+
+@media screen and (min-width: 650px) {
+	@each $dis in (block, inline-block, initial, none) {
 		.dis-$(dis)-des {
 			display: $(dis);
 		}
-	}
-	.dis-$(dis) {
-		display: $(dis);
 	}
 }

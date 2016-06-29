@@ -1,11 +1,14 @@
 @each $pos in (relative, absolute, static, fixed) {
-	@media screen and (min-width: 650px) {
+	.pos-$(pos) {
+		position: $(pos);
+	}
+}
+
+@media screen and (min-width: 650px) {
+	@each $pos in (relative, absolute, static, fixed) {
 		.pos-$(pos)-des {
 			position: $(pos);
 		}
-	}
-	.pos-$(pos) {
-		position: $(pos);
 	}
 }
 
