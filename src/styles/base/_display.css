@@ -4,7 +4,7 @@
 	}
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 750px) {
 	@each $dis in (block, inline-block, initial, none) {
 		.dis-$(dis)-des {
 			display: $(dis);

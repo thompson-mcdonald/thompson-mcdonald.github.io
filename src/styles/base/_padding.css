@@ -16,7 +16,7 @@
 	}
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 750px) {
 	@each $padValue, $padValueName in (0, 1em, 2em, 3em, 4em), (no, sm, md, lg, xl) {
 		.pad-$(padValueName)-t-des {
 			padding-top: $(padValue);
