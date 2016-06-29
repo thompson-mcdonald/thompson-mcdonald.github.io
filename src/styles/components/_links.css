@@ -11,5 +11,11 @@ a:hover, a:active {
 .wrapper-dark {
 	a:link, a:visited {
 		color: #ddd;
+		border-bottom: 1px solid #fff;
+	}
+	a:hover {
+		color: #fff;
+		text-decoration: none;
+		border: 0;
 	}
 }
