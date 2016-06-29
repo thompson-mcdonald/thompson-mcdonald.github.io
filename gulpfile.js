@@ -22,9 +22,6 @@ gulp.task('styles', function(){
 gulp.task('js', function(){
 	return browserify('./src/scripts/main.js')
 	.bundle()
-	.on('error', function(e){
-		gutil.log(e);
-	})
 	.pipe(source('main.js'))
 	.pipe(gulp.dest('dest/scripts'));
 });
