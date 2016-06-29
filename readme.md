@@ -1,6 +1,6 @@
-# Caramel - A Sweet Place To Start
+# thompson-mcdonald.github.io
 
-Super simple template project using [Gulp](https://www.npmjs.com/package/gulp), [Postcss](https://www.npmjs.com/package/postcss) & [Browserify](http://browserify.org/). Mostly created to save me hours getting lost in project alphabetty-spaghetti, this means I can straight to writing code.
+Built on [Caramel](https://github.com/thompson-mcdonald/caramel.git).
 
 ###Getting Started###
 
@@ -13,6 +13,6 @@ Obviously requires [Node](https://nodejs.org) & [npm](https://npmjs.com)
 	> gulp
 ```
 
-###Requests?###
+###Suggestions?###
 
 Report an issue and I'll see what I can do!
